@@ -1,85 +1,108 @@
-body {
-  font-family: Arial;
-  margin: 0;
-  background: #e6e6e6;
+body{
+    background:#f3f3f3;
+    color:#333;
+    font-family:sans-serif;
+    margin:0;
 }
 
 /* HEADER */
-.header {
-  background: #6c7a89;
-  color: white;
-  padding: 20px;
-  text-align: center;
+.header{
+    width:90%;
+    margin:20px auto 10px auto;
+    height:100px;
+    line-height:100px;
+    background:#4f79a1;
+    color:#fff;
+    font-size:18px;
+}
+
+/* SPACING DALAM */
+.jarak{
+    padding:0 20px;
 }
 
 /* MENU */
-.menu {
-  background: #5c6b7a;
+.menu{
+    background-color:#4f79a1;
+    height:45px;
+    line-height:45px;
+    width:90%;
+    margin:0 auto 20px auto;
 }
 
-.menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
+.menu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
 }
 
-.menu li {
-  float: left;
+.menu ul li a{
+    float:left;
+    width:80px;
+    text-align:center;
+    color:#1a00ff;
+    text-decoration:none;
+    font-size:14px;
 }
 
-.menu a {
-  display: block;
-  padding: 14px 20px;
-  color: white;
-  text-decoration: none;
+.menu ul li a:hover{
+    background:#5f8db8;
 }
 
-/* CONTENT */
-.content {
-  overflow: hidden;
+/* CONTENT AREA */
+.content{
+    width:90%;
+    margin:auto;
+    background:#e9e9e9;
+    padding:20px 0;
+    overflow:hidden;
 }
 
-.kiri {
-  width: 70%;
-  float: left;
+/* KIRI */
+.kiri{
+    width:65%;
+    float:left;
 }
 
-.kanan {
-  width: 30%;
-  float: right;
+/* KANAN */
+.kanan{
+    width:30%;
+    float:right;
 }
 
 /* BOX */
-.border {
-  background: white;
-  margin: 20px;
-  border: 1px solid #ccc;
+.border{
+    border:2px solid #4f79a1;
+    background:#eee;
+    margin-bottom:20px;
+    padding:15px;
 }
 
-.jarak {
-  padding: 20px;
+/* TEXT */
+h3{
+    margin-top:0;
 }
 
 /* BUTTON */
-button {
-  background: #6c7a89;
-  color: white;
-  border: none;
-  padding: 8px 12px;
+button{
+    margin-top:10px;
+    padding:3px 8px;
+    font-size:12px;
 }
 
-/* LINK */
-.undecor {
-  text-decoration: none;
-  color: black;
+/* CATEGORY LINK */
+.undecor{
+    text-decoration:none;
+    color:#1a00ff;
 }
 
 /* FOOTER */
-.footer {
-  background: #6c7a89;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  clear: both;
+.footer{
+    width:90%;
+    margin:20px auto;
+    height:40px;
+    line-height:40px;
+    background:#4f79a1;
+    color:#fff;
+    clear:both;
 }
